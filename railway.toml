@@ -2,5 +2,5 @@
 builder = "nixpacks"
 
 [deploy]
-startCommand = "node tracker.js"
+startCommand = "node tracker.js --report"
 restartPolicyType = "always"
